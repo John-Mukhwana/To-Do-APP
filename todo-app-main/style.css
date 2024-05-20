@@ -1,0 +1,114 @@
+body{
+    background-color: black;
+    color: white;  
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+.background{
+    background-image: url("./images/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.TODO{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25%;
+    margin: 0;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.todos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* width: 100%; */
+    /* background-color: #25273c; */ 
+}
+.todos .createNew{
+    display: flex;
+    justify-content: center;
+    background-color: #25273c;
+    padding: 0 20px;
+    margin: 3% 25% 5% 25%;
+    align-items: center;  
+}
+.todos .createNew input{
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #25273c;
+    color: white;
+}
+.todos .createNew input::placeholder{
+    color: rgb(226, 220, 220);
+}
+.todos .todoList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #25273c;
+    padding: 0 20px;
+    margin: 0 25%;
+    border-radius: 5px;
+}
+.todos .todoList .complete{
+    display: flex;
+   
+    /* justify-content: space-between; */
+    align-items: left;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #25273c;
+    border-bottom: 1px solid #3a3e5c;
+}
+#check{
+    display: flex;
+    justify-content: left;
+    border-radius: 100%;
+    align-items: left;
+    width: 20px;
+    height: 20px;
+    background-color: #25273c;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-bottom: 30px;;
+}
+ .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    margin: 0% 25% 5% 25%;
+    background-color: #25273c;
+    border-bottom: 1px solid #3a3e5c;
+    border-radius: 5%;
+
+}
+.footer .filter{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
